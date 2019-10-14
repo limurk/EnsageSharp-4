@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading;
@@ -84,7 +84,7 @@ namespace SkywrathMagePlus
                                                                !x.IsIllusion &&
                                                                x.IsSpawned &&
                                                                x.IsEnemy(Owner) &&
-                                                               x.Distance2D(Game.MousePosition) <= 100 &&
+                                                               x.Distance2D(Game.MousePosition) <= 2000 &&
                                                                (x.NetworkName == "CDOTA_BaseNPC_Creep_Neutral" ||
                                                                x.NetworkName == "CDOTA_BaseNPC_Invoker_Forged_Spirit" ||
                                                                x.NetworkName == "CDOTA_BaseNPC_Warlock_Golem" ||
